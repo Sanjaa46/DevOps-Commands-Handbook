@@ -58,6 +58,13 @@
 - `docker logs container_name` - view container logs
 - `docker stop container_name` - stop a container
 - `docker rm container_name` - remove a container
+###Systemd / systemctl
+- `systemctl status service_name` - check the status of a service
+- `systemctl start service_name` - start a service
+- `systemctl stop service_name` - stop a service
+- `systemctl restart service_name` - restart a service
+- `systemctl enable service_name` - enable a service to start at boot
+- `systemctl disable service_name` - disable a service from starting at boot
 
 
 
