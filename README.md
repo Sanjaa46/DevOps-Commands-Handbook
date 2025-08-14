@@ -7,8 +7,13 @@
 - `cd` - change directory
 - `cd ..` - move one directory up
 - `cd ~` - go to home directory
-
-
+### File management
+- `touch file.txt` - create an empty file
+- `mkdir folder_name` - create new folder
+- `cp source.txt destination.txt` - copy a file
+- `mv oldname.txt newname.txt` - rename or move a file
+- `rm file.txt` - delete a file
+- `rm -r folder_name` - delete a folder and its content
 
 
 
