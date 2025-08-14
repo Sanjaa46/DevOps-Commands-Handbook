@@ -71,18 +71,21 @@
 - `* * * * * command` - cron job format: minute hour day month weekday command
 	- Example: `0 2 * * * /home/user/backup.sh` -> run backup,sh exery dat at 2:00 AM
 - `systemctl restart cron` - restart the cron service (if needed)
-
-
-
-
-
-
-3. Basic DevOps Tools
-	- Docker: docker run, docker ps, docker image, docker exec, docker log
-	- Systemd: systemctl start/stop/restart/status
-	- Cron jobs: crontab -e, crontab -l
 	- Networking: ip a, ping, curl, wget
-4. Tips and Best Practices
-	- Aliases in .bashrc
-	- Using man and --help
-	- Common troubleshooting steps
+## 4. Tips & Best Practices
+### Linux Tips
+- Use `man command` or `command --help` to read the manual.
+- Use tab completion to save typing and avoid mistakes.
+- Create aliasing in `.bashrc` for frequently used commands.
+	Example: `alias ll='ls - lah'`
+- Use `history` to see past commands and reuse them.
+### Git Tips
+- Commit often with clear messages.
+- Use branches for new features or experiments.
+- Pull latest changes from remote before starting work.
+- Resolve merge conflicts carefully and test before merging.
+### DevOps Tips
+- Keep Docker conatiners loghtweight; remove unused images/containers.
+- Use systemd services to manage critical applications.
+- Schedule cron jobs thoughtfully; log outputs to files for troubleshooting
+- Document any scripts or commands you create for future reference.
