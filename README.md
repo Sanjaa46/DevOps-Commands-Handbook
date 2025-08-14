@@ -49,7 +49,7 @@
 	- Resolving conflicts
 
 ## 3. Basic DevOps Tools
-###Docker
+### Docker
 - `docker run -it image_name` - run a container interactively
 - `docker ps` - list running containers
 - `docker ps -a` - list all containers
@@ -58,13 +58,19 @@
 - `docker logs container_name` - view container logs
 - `docker stop container_name` - stop a container
 - `docker rm container_name` - remove a container
-###Systemd / systemctl
+### Systemd / systemctl
 - `systemctl status service_name` - check the status of a service
 - `systemctl start service_name` - start a service
 - `systemctl stop service_name` - stop a service
 - `systemctl restart service_name` - restart a service
 - `systemctl enable service_name` - enable a service to start at boot
 - `systemctl disable service_name` - disable a service from starting at boot
+### Cron Jobs
+- `crontab -e` - edit the current user's cronjobs
+- `crontab -l` - list the current user's cron jobs
+- `* * * * * command` - cron job format: minute hour day month weekday command
+	- Example: `0 2 * * * /home/user/backup.sh` -> run backup,sh exery dat at 2:00 AM
+- `systemctl restart cron` - restart the cron service (if needed)
 
 
 
