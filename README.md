@@ -45,17 +45,25 @@
 - `git branch new-branch` - create new branch
 - `git checkout new-branch` - switch to a branch
 - `git merge branch-name` - merge naother branch into current branch
-
-
-
-
-2. Git Basics
-	- Setup: git config
-	- Creating repos: git init, git clone
-	- Tracking changes: git add, git commit, git status, git log
-	- Branching: git branch, git checkout, git merge
 	- Remote: git push, git pull
 	- Resolving conflicts
+
+## 3. Basic DevOps Tools
+###Docker
+- `docker run -it image_name` - run a container interactively
+- `docker ps` - list running containers
+- `docker ps -a` - list all containers
+- `docker images` - list docker images
+- `docker exec -it container_name bash` - enter a running container
+- `docker logs container_name` - view container logs
+- `docker stop container_name` - stop a container
+- `docker rm container_name` - remove a container
+
+
+
+
+
+
 3. Basic DevOps Tools
 	- Docker: docker run, docker ps, docker image, docker exec, docker log
 	- Systemd: systemctl start/stop/restart/status
