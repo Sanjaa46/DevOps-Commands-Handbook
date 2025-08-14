@@ -1,7 +1,27 @@
 # DevOps-Commands-Handbook
 
-1. Linux Basics
-	- Navigation: cd, ls, pwd
+## 1. Linux Basics
+### Navigation
+- `pwd` - print current working directory
+- `ls` - list files in the current directory
+- `cd` - change directory
+- `cd ..` - move one directory up
+- `cd ~` - go to home directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	- File management: cp, mv, rm, mkdir, touch
 	- Viewing files: cat, less, head, tail
 	- Premissions: chmod, chown
