@@ -14,6 +14,15 @@
 - `mv oldname.txt newname.txt` - rename or move a file
 - `rm file.txt` - delete a file
 - `rm -r folder_name` - delete a folder and its content
+### Premissions
+- `chmod 755 file.sh` - change file premissions
+- `chown user:group file.txt` - change file owner and group
+- `ls -l` - list files with premissions and owner info
+
+### Process Management
+- `ps aux` - list all running processes
+- `top` - interactive process viewer
+- `kill PID` - terminate a process by PID
 
 
 
@@ -26,11 +35,7 @@
 
 
 
-
-	- File management: cp, mv, rm, mkdir, touch
 	- Viewing files: cat, less, head, tail
-	- Premissions: chmod, chown
-	- Process management: ps, top, kill
 	- Package management: apt, dpkg
 	- SSH basics: ssh, scp
 	- System service: systemctl, service
