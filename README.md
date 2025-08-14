@@ -23,22 +23,23 @@
 - `ps aux` - list all running processes
 - `top` - interactive process viewer
 - `kill PID` - terminate a process by PID
-
-
-
-
-
-
-
-
-
-
-
-
 	- Viewing files: cat, less, head, tail
 	- Package management: apt, dpkg
 	- SSH basics: ssh, scp
 	- System service: systemctl, service
+## 2. Git Basics
+### Setup
+- `git config --global user.name "Your name"` - set your Git username
+- `git config --global user.email "you@example.com"` - set your Git email
+- `git config --list` - view current Git configuration
+### Creating Repositories
+- `git init` - initialize a new local repository
+- `git clone https://github.com/user/repo.git` - clone an existing repo
+
+
+
+
+
 2. Git Basics
 	- Setup: git config
 	- Creating repos: git init, git clone
