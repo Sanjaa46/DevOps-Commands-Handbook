@@ -35,7 +35,16 @@
 ### Creating Repositories
 - `git init` - initialize a new local repository
 - `git clone https://github.com/user/repo.git` - clone an existing repo
-
+### Tracking changes
+- `git status` - see which files are staged, modified, or untracked
+- `git add file.txt` - stage changes for commit
+- `git commit -m "message"` - commit staged changes
+- `git log` - view commit history
+### Branching
+- `git branch` - list branches
+- `git branch new-branch` - create new branch
+- `git checkout new-branch` - switch to a branch
+- `git merge branch-name` - merge naother branch into current branch
 
 
 
