@@ -85,6 +85,8 @@
 - `docker logs container_name` - view container logs
 - `docker stop container_name` - stop a container
 - `docker rm container_name` - remove a container
+- `docker network ls` - lists all networks
+- `docker network inspect <network>` - show details
 
 ### Systemd / systemctl
 - `systemctl status service_name` - check the status of a service
